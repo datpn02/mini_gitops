@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source: 
-    repoURL: https://github.com/datpn02/gitops.git
+    repoURL: https://github.com/datpn02/mini_gitops.git
     path: k8s
   destination: 
     server: https://kubernetes.default.svc
