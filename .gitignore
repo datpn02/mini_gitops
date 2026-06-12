@@ -1,10 +1,11 @@
-# Kubernetes Secrets (local only, never push to git)
-k8s/secret-*.yaml
-!k8s/secret-*.template.yaml
-
 # Environment files
 .env
 .env.local
 *.swp
 *.swo
 *~
+
+k8s/secret-*.yaml
+!k8s/secret-*.template.yaml
+
+
