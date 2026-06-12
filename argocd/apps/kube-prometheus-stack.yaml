@@ -28,7 +28,7 @@ spec:
               smtp_smarthost: 'smtp.gmail.com:587'
               smtp_from: 'w.pnguyendat@gmail.com'
               smtp_auth_username: 'w.pnguyendat@gmail.com'
-              smtp_auth_password: 'your-app-password'
+              smtp_auth_password: 'yeptwwpxsyihcoze'
             receivers:
             - name: email
               email_configs:
