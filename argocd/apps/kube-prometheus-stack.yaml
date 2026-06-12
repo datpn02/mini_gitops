@@ -28,7 +28,7 @@ spec:
               smtp_smarthost: 'smtp.gmail.com:587'
               smtp_from: 'w.pnguyendat@gmail.com'
               smtp_auth_username: 'w.pnguyendat@gmail.com'
-              smtp_auth_password: 'yeptwwpxsyihcoze'
+              smtp_auth_password: '/etc/alertmanager/secrets/alertmanager-smtp-secret/password'
             receivers:
             - name: email
               email_configs:
